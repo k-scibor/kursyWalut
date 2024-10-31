@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="KursyWalut.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+            <HorizontalStackLayout>
+
+            </HorizontalStackLayout>
+            <HorizontalStackLayout>
+                <Image
+                    Source="usd.png"
+                    WidthRequest="50"
+                    />
+                <Label
+                    Text="USD"
+                    FontSize="40"
+                    VerticalOptions="Center"
+                    Margin="10"
+                    />
+                <VerticalStackLayout VerticalOptions="Center">
+                    <Label x:Name="lblUSDks" Text="Kurs sprzedaży: "/>
+                    <Label x:Name="lblUSDkz" Text="Kurs skupu: "/>
+                </VerticalStackLayout>
+
+            </HorizontalStackLayout>
+
+            <HorizontalStackLayout>
+                <Image
+                    Source="eur.png"
+                    WidthRequest="50"
+                    />
+                <Label
+                    Text="EUR"
+                    FontSize="40"
+                    VerticalOptions="Center"
+                    Margin="10"
+                    />
+                <VerticalStackLayout VerticalOptions="Center">
+                    <Label x:Name="lblEURks" Text="Kurs sprzedaży: "/>
+                    <Label x:Name="lblEURkz" Text="Kurs skupu: "/>
+                </VerticalStackLayout>
+
+            </HorizontalStackLayout>
+
+            <HorizontalStackLayout>
+                <Image
+                    Source="gbp.png"
+                    WidthRequest="50"
+                    />
+                <Label
+                    Text="GBP"
+                    FontSize="40"
+                    VerticalOptions="Center"
+                    Margin="10"
+                    />
+                <VerticalStackLayout VerticalOptions="Center">
+                    <Label x:Name="lblGBPks" Text="Kurs sprzedaży: "/>
+                    <Label x:Name="lblGBPkz" Text="Kurs skupu: "/>
+                </VerticalStackLayout>
+
+            </HorizontalStackLayout>
+
+
+            <Label
+                x:Name="lblTest"
+                />
+            <Label
+                x:Name="lblTest2"
+                />
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
